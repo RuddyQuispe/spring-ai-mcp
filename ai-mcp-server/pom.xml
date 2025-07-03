@@ -7,7 +7,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.5.3</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
 
     <groupId>edu.bo.uyunicode.ai.mcp.server</groupId>
@@ -15,6 +15,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>ai-mcp-server</name>
     <description>mcp server to business model</description>
+    <packaging>jar</packaging>
 
     <properties>
         <java.version>21</java.version>

@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class AiMcpServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AiMcpServerApplication.class);
+        SpringApplication.run(AiMcpServerApplication.class, args);
     }
 
 }
