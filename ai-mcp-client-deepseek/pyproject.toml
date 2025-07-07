@@ -1,0 +1,13 @@
+[project]
+name = "ai-mcp-client-deepseek"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "asyncio>=3.4.3",
+    "google>=3.0.0",
+    "google-genai>=1.24.0",
+    "mcp[cli]>=1.10.1",
+    "openai>=1.93.0",
+]
