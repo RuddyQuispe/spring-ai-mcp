@@ -1,3 +1,26 @@
 spring:
   application:
     name: ai-mcp-client
+  ai:
+    ollama:
+      chat:
+        options:
+          model: llama3.2
+    mcp:
+      client:
+        toolcallback:
+          enabled: true
+        sse:
+          connections:
+            my-mcp-server:
+              url: http://192.168.100.4:8081
+              sse-endpoint: /sse
+
+server:
+  port: 8082
+logging:
+  level:
+    org:
+      springframework:
+        ai:
+          mcp: trace
