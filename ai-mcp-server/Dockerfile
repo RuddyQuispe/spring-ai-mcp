@@ -4,7 +4,7 @@ LABEL authors="ruddy"
 WORKDIR /app
 COPY ./target/ai-mcp-server-0.0.1-SNAPSHOT.jar /app
 
-EXPOSE 8080
+EXPOSE 8081
 
 ENV TZ=America/La_Paz
 

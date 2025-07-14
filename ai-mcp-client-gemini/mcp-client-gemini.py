@@ -15,7 +15,7 @@ async def main():
             # print("Respuesta del servidor:", response)
 
             client = genai.Client(api_key="abcdefghijklamnopqrs-1234567890-ABCDEF")
-            prompt = "Saludame!"
+            prompt = "Hola! muestrame los productos disponibles."
 
             response = await client.aio.models.generate_content(
                 model="gemini-2.5-flash",

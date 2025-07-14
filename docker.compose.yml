@@ -1,0 +1,24 @@
+version: "1.0"
+services:
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    environment:
+      POSTGRES_DB: pg-mcp
+      POSTGRES_PASSWORD: 216042021
+      POSTGRES_USER: mcp
+    ports:
+      - "5432:5432"
+  mcp-server:
+    image: ai-mcp-server:0.0.1
+    depends_on:
+      - postgres
+    ports:
+      - "8080:8081"
+  mcp-client-llama:
+    image: ai-mcp-client:0.0.1
+    depends_on:
+      - mcp-server
+      - postgres
+    ports:
+      - "8082:8082"

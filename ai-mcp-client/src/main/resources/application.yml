@@ -13,9 +13,8 @@ spring:
         sse:
           connections:
             my-mcp-server:
-              url: http://192.168.100.4:8081
+              url: http://192.168.100.4:8080
               sse-endpoint: /sse
-
 server:
   port: 8082
 logging:
