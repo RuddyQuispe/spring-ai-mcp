@@ -5,12 +5,15 @@
 ![Python](https://img.shields.io/badge/Python-3.13-yellow.svg)
 ![Gemini](https://img.shields.io/badge/Gemini-DeepMind-blueviolet.svg)
 ![Llama3](https://img.shields.io/badge/Llama3.2-Ollama-ff69b4.svg)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-latest-blue)
 
 Este repositorio contiene un ejemplo de implementacion de cliente-servidor MCP (Model context protocol) distribuido compuesto por:
 
 - 🖥️ **Servidor MCP** desarrollado en Spring Boot
 - 🤖 **Cliente MCP #1**: Spring Boot + [Llama 3.2](https://ollama.com/library/llama3) a través de Ollama
 - 🐍 **Cliente MCP #2**: Python + [Gemini](https://deepmind.google/discover/gemini/) para procesamiento de lenguaje natural
+
+![Diagrana del proyecto](https://github.com/user-attachments/assets/e62a239f-97d5-4a4c-a827-4a7d4f1629e4)
 
 ## 📦 Estructura del proyecto
 ```
