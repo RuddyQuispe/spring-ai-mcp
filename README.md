@@ -1,4 +1,4 @@
-# 🧠 MCP Multicliente - Spring Boot & Python con LLMs
+# Protocolo MCP: Un Ejemplo con Spring Boot, Python, Gemini y LLaMA 3.2
 
 ![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 ![Java](https://img.shields.io/badge/SpringBoot-3.5-blue.svg)
